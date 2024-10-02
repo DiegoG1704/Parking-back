@@ -1,5 +1,4 @@
 import express from 'express'
-import { pool } from './db.js'
 import usuarioRouter from './routes/usuarioRoutes.js'
 import { PORT } from './config.js'
 import morgan from 'morgan'
